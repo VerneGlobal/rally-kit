@@ -190,7 +190,7 @@ Alternatively, use an existing verifier.
 (rally) $ rally verify use-verifier --id tempest-vm-floating-ip
 ```
 
-Run all tests, using the vm-fixed-network blacklist.
+Run all tests, using the vm-floating-ip blacklist.
 
 ```
 (rally) $ rally verify start --skip-list blacklists/vm-floating-ip
